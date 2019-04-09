@@ -66,7 +66,7 @@ var requiredRevision = 45;
 if ($browser=='mobile') {
 	print('<div class="text">');
 	print('<h2>ユーザログイン</h2>');
-	print('<CENTER>');
+	print('<center>');
 	print('<form method="post" action="./serch/main.php">');
 	print('ユーザID<br>（メールアドレス）<br>');
 	print('<input type="text" name="user_id" size="20" style="ime-mode:disabled" istyle="3" mode="alphabet" maxlength="255" value=""><br>');
@@ -82,9 +82,9 @@ if ($browser=='mobile') {
 	print('<div class="mobile">');
 	print('<a href="./regist/m/question.php">お問い合わせフォーム</a><div>');
 	print('</p>');
-	print('</CENTER>');
+	print('</center>');
 
-	print('<h2>記録をらくらく管理</h2>');
+	print('<h2>記録をらくらく管理!</h2>');
 	print('<p>水泳の記録管理ならお任せください！');
 	print('簡単なデータ入力で、記録を効率的に集計管理できます。</p>');
 	print('<p>【主な機能】<br>');
